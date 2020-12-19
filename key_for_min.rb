@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
   
   first = true
   lowest_key = "temp"
+  lowest = 0
   
   name_hash.each do |key, num|
     if (first)
