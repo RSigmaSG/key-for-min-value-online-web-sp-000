@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
   end
   
   first = true
+  lowest_key = "temp"
   
   name_hash.each do |key, num|
     if (first)
